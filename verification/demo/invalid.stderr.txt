@@ -1,0 +1,1 @@
+examples/invalid.sql:1:8: семантическая ошибка: Столбец 'city' отсутствует в GROUP BY.

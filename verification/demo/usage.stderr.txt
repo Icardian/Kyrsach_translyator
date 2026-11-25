@@ -1,0 +1,14 @@
+usage: sql2py.exe [-h] -o OUTPUT [--version] query
+
+Трансляция SQL-запроса в автономный Python-скрипт.
+
+positional arguments:
+  query                 Файл с одним запросом SELECT в UTF-8.
+
+options:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        Путь для создания файла Python.
+  --version             show program's version number and exit
+
+Ошибка аргументов: the following arguments are required: query, -o/--output

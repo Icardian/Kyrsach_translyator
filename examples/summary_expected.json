@@ -1,0 +1,23 @@
+[
+  {
+    "city": "Москва",
+    "orders": 2,
+    "priced": 2,
+    "total": 250.0,
+    "average": 125.0
+  },
+  {
+    "city": "Казань",
+    "orders": 2,
+    "priced": 2,
+    "total": 125,
+    "average": 62.5
+  },
+  {
+    "city": "Пермь",
+    "orders": 3,
+    "priced": 2,
+    "total": 90,
+    "average": 45
+  }
+]

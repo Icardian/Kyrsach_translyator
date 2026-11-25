@@ -1,0 +1,11 @@
+Платформа проверки: Linux x86_64.
+Интерпретатор сборки: CPython 3.12.14.
+Входные файлы: examples/summary.sql, examples/orders.csv, examples/orders.json и examples/invalid.sql.
+stdout.txt содержит стандартный вывод, stderr.txt содержит диагностику.
+
+version (код 0)  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I bin/sql2py.pyz --version
+usage (код 2)  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I bin/sql2py.pyz
+translation (код 0)  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I bin/sql2py.pyz examples/summary.sql -o verification/demo/summary.py
+csv (код 0)  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I verification/demo/summary.py examples/orders.csv
+json (код 0)  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I verification/demo/summary.py examples/orders.json
+invalid (код 1)  /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3 -I bin/sql2py.pyz examples/invalid.sql -o verification/demo/invalid.py

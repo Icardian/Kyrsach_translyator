@@ -1,0 +1,10 @@
+id,city,customer,status,amount,paid
+1,Москва,Анна,paid,125.5,true
+2,Казань,Илья,paid,75,true
+3,Москва,Лена,cancelled,190,false
+4,Казань,Борис,paid,50,true
+5,Пермь,Майя,paid,,true
+6,Москва,О'Брайен,paid,124.5,true
+7,Пермь,Олег,paid,40,true
+8,Казань,"Ли, Анна",pending,145,false
+9,Пермь,Нина,paid,50,true

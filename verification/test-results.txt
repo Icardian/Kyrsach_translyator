@@ -1,0 +1,40 @@
+test_boolean_precedence_and_null_test (test_translator.TranslatorTests.test_boolean_precedence_and_null_test) ... ok
+test_casefold_quoted_names_bom_and_semicolon_delimiter (test_translator.TranslatorTests.test_casefold_quoted_names_bom_and_semicolon_delimiter) ... ok
+test_csv_quotes_embedded_newline_and_text_code (test_translator.TranslatorTests.test_csv_quotes_embedded_newline_and_text_code) ... ok
+test_empty_filtered_aggregate (test_translator.TranslatorTests.test_empty_filtered_aggregate) ... ok
+test_empty_filtered_group (test_translator.TranslatorTests.test_empty_filtered_group) ... ok
+test_empty_json_and_limit_zero (test_translator.TranslatorTests.test_empty_json_and_limit_zero) ... ok
+test_failed_result_write_does_not_touch_input_or_existing_output (test_translator.TranslatorTests.test_failed_result_write_does_not_touch_input_or_existing_output) ... ok
+test_generated_code_contains_query_operations (test_translator.TranslatorTests.test_generated_code_contains_query_operations) ... ok
+test_global_aggregates_and_null_counting (test_translator.TranslatorTests.test_global_aggregates_and_null_counting) ... ok
+test_group_null_keys_and_distinct_value_kinds (test_translator.TranslatorTests.test_group_null_keys_and_distinct_value_kinds) ... ok
+test_group_without_aggregates (test_translator.TranslatorTests.test_group_without_aggregates) ... ok
+test_hard_link_output_cannot_replace_input (test_translator.TranslatorTests.test_hard_link_output_cannot_replace_input) ... ok
+test_header_only_csv_known_columns (test_translator.TranslatorTests.test_header_only_csv_known_columns) ... ok
+test_invalid_csv_data (test_translator.TranslatorTests.test_invalid_csv_data) ... ok
+test_invalid_json_data (test_translator.TranslatorTests.test_invalid_json_data) ... ok
+test_lexical_diagnostic_position (test_translator.TranslatorTests.test_lexical_diagnostic_position) ... ok
+test_lexical_failures_on_unclosed_text (test_translator.TranslatorTests.test_lexical_failures_on_unclosed_text) ... ok
+test_limits_for_nesting_tokens_and_file_size (test_translator.TranslatorTests.test_limits_for_nesting_tokens_and_file_size) ... ok
+test_missing_input_column_at_runtime (test_translator.TranslatorTests.test_missing_input_column_at_runtime) ... ok
+test_multiple_group_fields_and_missing_value (test_translator.TranslatorTests.test_multiple_group_fields_and_missing_value) ... ok
+test_null_in_not_and_comparison (test_translator.TranslatorTests.test_null_in_not_and_comparison) ... ok
+test_packaged_bytecode_translates_without_source_package (test_translator.TranslatorTests.test_packaged_bytecode_translates_without_source_package) ... ok
+test_runtime_cli_errors (test_translator.TranslatorTests.test_runtime_cli_errors) ... ok
+test_save_json_output_replaces_previous_result (test_translator.TranslatorTests.test_save_json_output_replaces_previous_result) ... ok
+test_schema_union_and_star_preserves_display_names (test_translator.TranslatorTests.test_schema_union_and_star_preserves_display_names) ... ok
+test_selection_csv_json_and_expected (test_translator.TranslatorTests.test_selection_csv_json_and_expected) ... ok
+test_semantic_failures_preserve_existing_output (test_translator.TranslatorTests.test_semantic_failures_preserve_existing_output) ... ok
+test_sort_secondary_key_and_nulls_last (test_translator.TranslatorTests.test_sort_secondary_key_and_nulls_last) ... ok
+test_string_escaping_and_numeric_literal (test_translator.TranslatorTests.test_string_escaping_and_numeric_literal) ... ok
+test_summary_csv_json_and_expected (test_translator.TranslatorTests.test_summary_csv_json_and_expected) ... ok
+test_syntax_failures (test_translator.TranslatorTests.test_syntax_failures) ... ok
+test_translator_file_errors_and_cli_exit_codes (test_translator.TranslatorTests.test_translator_file_errors_and_cli_exit_codes) ... ok
+test_type_mismatch_in_filters_sorting_and_aggregates (test_translator.TranslatorTests.test_type_mismatch_in_filters_sorting_and_aggregates) ... ok
+test_unknown_with_true_or_false_and (test_translator.TranslatorTests.test_unknown_with_true_or_false_and) ... ok
+test_wrong_table_can_be_bound_explicitly (test_translator.TranslatorTests.test_wrong_table_can_be_bound_explicitly) ... ok
+
+----------------------------------------------------------------------
+Ran 35 tests in 5.637s
+
+OK
